@@ -16,6 +16,8 @@
 		4931A7811FEC18090095EFEA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931A7801FEC18090095EFEA /* LoginViewController.swift */; };
 		4931A7831FEC18190095EFEA /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931A7821FEC18190095EFEA /* ProjectsViewController.swift */; };
 		4931A7851FEC18380095EFEA /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4931A7841FEC18380095EFEA /* ProjectViewController.swift */; };
+		6451876C20172DD200C4A56F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6451876B20172DD200C4A56F /* Constants.swift */; };
+		6451876E201730EE00C4A56F /* HttpClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6451876D201730EE00C4A56F /* HttpClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		4931A7801FEC18090095EFEA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4931A7821FEC18190095EFEA /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
 		4931A7841FEC18380095EFEA /* ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		6451876B20172DD200C4A56F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6451876D201730EE00C4A56F /* HttpClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 				4931A7801FEC18090095EFEA /* LoginViewController.swift */,
 				4931A7821FEC18190095EFEA /* ProjectsViewController.swift */,
 				4931A7841FEC18380095EFEA /* ProjectViewController.swift */,
+				6451876B20172DD200C4A56F /* Constants.swift */,
+				6451876D201730EE00C4A56F /* HttpClass.swift */,
 			);
 			path = "SV Queuer";
 			sourceTree = "<group>";
@@ -213,6 +219,8 @@
 				4931A7811FEC18090095EFEA /* LoginViewController.swift in Sources */,
 				4931A7631FEC11C10095EFEA /* ViewController.swift in Sources */,
 				4931A7611FEC11C10095EFEA /* AppDelegate.swift in Sources */,
+				6451876E201730EE00C4A56F /* HttpClass.swift in Sources */,
+				6451876C20172DD200C4A56F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,11 +2,7 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    static let BASE_URL = "https://queuer-production.herokuapp.com/api/v1/"
-    static let PROJECTS_URL = BASE_URL + "projects"
-
-    var window: UIWindow?
-
+   var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
